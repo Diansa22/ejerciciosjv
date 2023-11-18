@@ -1,7 +1,6 @@
 'use strict';
-const nombre = prompt('por favor ingrese su nombre');
-if (nombre) {
-    document.write("hola, " + nombre)
-} else {
-    document.write("hola, desconocido");
-}
+/* Preguntar nombre al usuario y saludarlo por su nombre. */
+
+const nombre = prompt('Por favor ingrese su nombre:');
+alert('Hola, ' + nombre);
+console.log(nombre)
